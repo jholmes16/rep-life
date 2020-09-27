@@ -1,2 +1,2 @@
-Create Alpha Blog Rails training.
+Code for a blog site using Ruby on Rails.
 

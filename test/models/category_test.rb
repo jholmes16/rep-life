@@ -2,7 +2,6 @@ require 'test_helper'
 
 class CategoryTest < ActiveSupport::TestCase
 
-  #makes @catergory available for each test
   def setup
     @category = Category.new(name: "Sports")
   end

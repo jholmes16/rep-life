@@ -24,6 +24,13 @@
           </div>
         </div>
 
+        <div class="form-group row">
+          <%= f.label :Image_URL, class: "col-2 col-form-label text-light" %>
+          <div class="col-10"> 
+            <%= f.url_field :imageURL, class: "form-control shadow rounded", placeholder: "Enter the URL of your image" %>
+          </div>
+        </div>
+
         <div class="form-group row justify-content-center">
           <%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: "btn btn-outline-light btn-lg") %>
         </div>

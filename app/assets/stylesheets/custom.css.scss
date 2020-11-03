@@ -60,6 +60,7 @@
     margin-top: 25px;
 }
 
+/* Code to add jumbotron with image */
 .jumbotron{
     background-image: asset-url('typewriter2.jpg');
     background-position: center center;
@@ -81,3 +82,22 @@ body {
 #sticky-footer {
   flex-shrink: none;
 }
+
+/* Code to add jumbotron carousel images */
+.jumbotron-one{
+  background-image: asset-url('typewriter2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+.jumbotron-two{
+  background-image: asset-url('pxfuel.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+/* End of code to add jumbotron carousel images */

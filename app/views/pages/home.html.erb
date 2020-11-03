@@ -1,9 +1,18 @@
 <div class="container" id="home-container">
-    <div class="jumbotron text-center text-white">
-        <h1 class="display-4">Rep Life Entertainment</h1>
-        <hr class="my-4">
-        <%= link_to "Sign up!", signup_path, class: "btn btn-success btn-lg" %>
+  <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active jumbotron-one text-center text-white">
+          <h1 class="display-4">Rep Life Entertainment</h1>
+          <hr class="my-4">
+          <%= link_to "Sign up!", signup_path, class: "btn btn-success btn-lg" %>
+        </div>
+        <div class="carousel-item jumbotron-two">
+        </div>
+      </div>
     </div>
+  </div>
+    
     <div class="p-3 mb-2 bg-light text-dark">
       <p class="text-center paragraph-font">
         Welcome to the Rep Life community.  You source for positive urban entertainment.

@@ -1,6 +1,8 @@
 <h1 class="text-center mt-4"><%= @user.username %></h1>
 
-<%= image_url(@user, 200) %>
+<div class="text-center">
+  <%= image_url(@user, 200) %>
+</div>
 
 <% if logged_in? && @user == current_user %>
   <div class="text-center mt-4">
